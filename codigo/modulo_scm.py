@@ -44,6 +44,7 @@ class ModuloSCM:
             
             # Instanciamos una Orden de Compra como objeto
             orden = OrdenCompraSCM(fecha_hora, producto.ingrediente, 20)
+            # dict () convierte el objeto a un diccionario, que luego se puede convertir a DataFrame
             nueva_orden = pd.DataFrame([orden.__dict__]) # Convierte el objeto a formato tabla automáticamente
             
             nueva_orden.to_csv(self.archivo_oc, mode='a', index=False, header=False)
