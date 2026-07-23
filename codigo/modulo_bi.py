@@ -26,6 +26,10 @@ class ModuloBI:
 
             # Función para etiquetar a los clientes según su comportamiento
             def segmentar(row):
+                # Si un cliente ha hecho más de 1 compra, es VIP
+                # Si su última compra fue hace menos de 60 días, es Activo
+                # Si fue hace menos de 120 días, está En Riesgo; de lo contrario
+                # Recuperable; perdimos ese cliente por lo que toca ver la forma de recuperarlo dando algun tipo de incentivo fuerte
                 if row['Frequency'] > 1: return 'VIP'
                 if row['Recency'] < 60: return 'Activo'
                 if row['Recency'] < 120: return 'En Riesgo'
