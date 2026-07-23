@@ -1,0 +1,14 @@
+id_transaccion,fecha,monto,metodo_pago,descripcion
+9998,2026-07-21 20:57:22,25.0,Cash,Venta 2x Pizza
+9998,2025-08-15 07:20:06,25.0,Debit Card,Venta 2x Pizza
+9999,2025-08-16 07:20:06,25.5,Cash,Venta 3x Burger
+10005,2025-08-21 07:20:06,6.5,Cash,Venta 1x Cake
+10006,2025-08-22 07:20:06,39.0,Cash,Venta 6x Cake
+10007,2025-08-23 07:20:06,6.5,Cash,Venta 1x Cake
+10008,2025-08-24 07:20:06,13.0,Cash,Venta 2x Cake
+10009,2025-08-25 07:20:06,25.0,Cash,Venta 2x Pizza
+10010,2025-08-26 07:20:06,37.5,Credit Card,Venta 3x Pizza
+10011,2025-08-27 07:20:06,70.0,Cash,Venta 14x Brownie
+10012,2025-08-28 07:20:06,25.0,Cash,Venta 2x Pizza
+10013,2025-08-29 07:20:06,125.0,Cash,Venta 10x Pizza
+10014,2025-08-30 07:20:06,25.0,Cash,Venta 2x Pizza
