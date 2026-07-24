@@ -69,6 +69,10 @@ Instala todas las librerías necesarias ejecutando:
 pip install -r requirements.txt
 ```
 
+```bash
+pip install pandas matplotlib
+```
+
 ---
 
 ## 🎮 Ejecución del Sistema
